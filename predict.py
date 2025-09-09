@@ -5,7 +5,7 @@ import pickle
 
 def run():
     # load model
-    with open('./src/model_akhir.pkl', 'rb') as file:
+    with open('model_akhir.pkl', 'rb') as file:
         model = pickle.load(file)
     
     st.title('Predict Player Rating')

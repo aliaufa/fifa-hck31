@@ -15,7 +15,7 @@ def run():
     st.title('FIFA Data Exploration')
     
     # load gambar
-    gambar_header = Image.open('./src/mbappe.jpg')
+    gambar_header = Image.open('mbappe.jpg')
     st.image(gambar_header)
     st.caption('source: google images')
 
